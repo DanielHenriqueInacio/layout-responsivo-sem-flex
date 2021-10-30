@@ -1,0 +1,21 @@
+git checkout -b topo
+
+Commits
+- criar html
+- importar as imagens
+- criar o menu
+- posicionar a logo
+
+git add -A . 
+git commit -m "criar html"
+
+git add -A .
+git commit -m "importar as imagens"
+
+git add -A .
+git commit -m "criar o menu"
+
+git add -A .
+git commit -m "posicionar a logo"
+
+git push origin topo

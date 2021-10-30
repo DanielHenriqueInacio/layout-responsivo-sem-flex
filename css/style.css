@@ -1,22 +1,103 @@
 @charset "utf8";
+@import url("fonts.css");
 
 /*reset*/
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 1.6rem;
+}
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box
-} ;
+}
 
 a {
     text-decoration: none;
     color: #000;
-};
+}
 
 ul {
     list-style: none;
-};
+}
 
 img {
     border: none;
 }
+
+/* Formatando o topo */
+
+.full-container {
+    width: 90vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    padding-top: 9vh;
+}
+
+.container {
+    width: 70vw;
+    height: 100vh;
+    margin: auto;
+}
+
+h1.logo {
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    margin-top: 3vh;
+    margin-left: -3.5vw;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 2vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: #444444;
+}
+
+.menu li a:hover {
+    color:#858585;
+}
+
+.stn {
+    background-color: #ededed;
+    width: 100%;
+    height: 50vh;
+    margin-top: 15vh;
+    position: relative;
+}
+
+.stn h2 {
+    color: #e4484b;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 6rem;
+    float: right;
+    margin-top: 10vh;
+    margin-right: 7vw;
+}
+
+.stn p {
+    color: #6c6c6c;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    position: relative;
+    margin-right: -11vw;
+    margin-top: 26vh;
+}
+
+
+
+
